@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-shadow {
+    text-shadow: 6px 3px 5px rgb(0, 0, 0);
+}
+
+/* 
+.konten {
+    padding: 10px 40px;
+} */
