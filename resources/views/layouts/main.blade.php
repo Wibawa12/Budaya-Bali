@@ -51,7 +51,7 @@
     </header>
 
     <!-- KONTEN UTAMA -->
-    <main class="container mx-auto flex-grow">
+    <main class="container w-full min-h-screen flex flex-col">
         @yield('content')
     </main>
 
