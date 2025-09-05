@@ -1,9 +1,6 @@
 @extends('layouts.main')
 
 @section('content')
-    {{-- Tambahkan Alpine.js --}}
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-
     <div x-data="{
         showModal: false, 
         modalImage: '', 
@@ -11,7 +8,7 @@
             this.showModal = false;
             this.modalImage = ''; // kosongkan untuk reset video
         }
-    }" class="konten mt-24 mb-5 px-6 max-w-8xl mx-auto">
+    }" class="konten mt-20 mb-5 max-w-8xl md:mx-10 mx-3" data-aos="fade-up" data-aos-duration="900">
         <h2 class="text-2xl font-bold mb-4">Galeri Budaya Bali</h2>
 
         {{-- Galeri Grid --}}
