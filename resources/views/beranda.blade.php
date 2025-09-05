@@ -3,7 +3,7 @@
 @section('content')
     <!-- Banner -->
     <section class="relative w-full min-h-screen bg-cover bg-center" style="background-image: url('{{ asset('images/banner-bali.jpg') }}');">
-        <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center px-4">
+        <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center px-4">
             <div class="text-center max-w-3xl">
                 <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white leading-tight">
                     Selamat Datang di Website<br class="hidden sm:block"> Budaya Bali
@@ -14,7 +14,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Isi Konten -->
     <section class="konten mt-8 mb-5 mr-6 ml-6">
