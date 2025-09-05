@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Budaya Bali</title>
+    <!-- TAILWIND CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <!-- AOS CDN -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ALPINE JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-50 text-gray-800">
@@ -15,7 +19,7 @@
     <header id="main-header" class="{{ (request()->is('artikel') || request()->is('galeri') || request()->is('tempat')) ? 'bg-red-600' : 'bg-transparent' }} fixed top-0 left-0 w-full z-50 transition duration-300 ease-in-out text-shadow">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
-                <!-- Logo -->
+                <!-- LOGO -->
                 <div class="text-2xl font-bold text-white" id="logo-text">
                     <a href="/">Budaya Bali</a>
                 </div>
@@ -51,7 +55,7 @@
     </header>
 
     <!-- KONTEN UTAMA -->
-    <main class="container w-full min-h-screen flex flex-col">
+    <main class="w-full min-h-screen flex flex-col">
         @yield('content')
     </main>
 
@@ -60,7 +64,7 @@
         Copyright &copy; 2025 - Ida Bagus Putu Wibawa Pemaron, All Rights Reserved.
     </footer>
 
-    <!-- Floating Audio Button -->
+    <!-- FLOATING AUDIO BUTTON -->
     <div 
         x-data="{ playing: false, audio: null }" 
         class="fixed bottom-6 right-6 z-50"
