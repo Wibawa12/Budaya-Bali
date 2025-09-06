@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="konten mt-24 mb-5 px-6 max-w-8xl mx-auto">
+    <div class="konten mt-20 mb-5 max-w-8xl md:mx-10 mx-3" data-aos="fade-up" data-aos-duration="900">
         <h2 class="text-2xl font-bold mb-4">Artikel Budaya Bali</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
