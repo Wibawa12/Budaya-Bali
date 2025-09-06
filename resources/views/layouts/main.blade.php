@@ -36,7 +36,7 @@
                 </div>
 
                 <!-- MENU DESKTOP -->
-                <nav id="nav-links" class="hidden sm:flex space-x-4 ml-auto text-white">
+                <nav id="nav-links" class="hidden sm:flex space-x-4 ml-auto text-white text-lg font-medium">
                     <a href="/" class="hover:underline {{ request()->is('/') ? 'underline font-bold' : '' }}">Beranda</a>
                     <a href="/artikel" class="hover:underline {{ request()->is('artikel') ? 'underline font-bold' : '' }}">Artikel</a>
                     <a href="/galeri" class="hover:underline {{ request()->is('galeri') ? 'underline font-bold' : '' }}">Galeri</a>
@@ -45,7 +45,7 @@
             </div>
 
             <!-- MENU MOBILE -->
-            <div id="mobile-menu" class="sm:hidden hidden flex flex-col space-y-2 pb-4 text-right text-white">
+            <div id="mobile-menu" class="sm:hidden hidden flex flex-col space-y-2 pb-4 text-right text-white text-base font-medium">
                 <a href="/" class="hover:underline {{ request()->is('/') ? 'underline font-bold' : '' }}">Beranda</a>
                 <a href="/artikel" class="hover:underline hover:bg-rose-400 {{ request()->is('artikel') ? 'underline font-bold' : '' }}">Artikel</a>
                 <a href="/galeri" class="hover:underline hover:bg-rose-400 {{ request()->is('galeri') ? 'underline font-bold' : '' }}">Galeri</a>
