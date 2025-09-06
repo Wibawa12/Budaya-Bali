@@ -99,7 +99,7 @@
 
             <!-- COPYRIGHT -->
             <div class="text-center text-sm">
-                Created by <span class="font-bold">Gus Wi.</span> | &copy; 2025.
+                Created by <span class="font-bold">Budaya Bali.</span> | &copy; 2025.
             </div>
         </div>
     </footer>
