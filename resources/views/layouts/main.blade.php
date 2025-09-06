@@ -21,7 +21,7 @@
             <div class="flex justify-between items-center py-4">
                 <!-- LOGO -->
                 <div class="text-2xl font-bold text-white" id="logo-text">
-                    <a href="/">Budaya Bali</a>
+                    <a href="/">Budaya Bali</a> 
                 </div>
 
                 <!-- HAMBURGER (MOBILE) -->
