@@ -97,11 +97,7 @@
                 <a href="/#hubungi-kami" class="hover:underline">Kontak</a>
             </div>
 
-<<<<<<< HEAD
             <!-- COPYRIGHT -->
-=======
-            <!-- Copyright -->
->>>>>>> 33b14dbefeb761949665961dad80b3f62d22e992
             <div class="text-center text-sm">
                 Created by <span class="font-bold">Gus Wi.</span> | &copy; 2025.
             </div>
